@@ -11,6 +11,7 @@ urlpatterns = [
     path('executeCompare', views.executeCompare),
     path('delete_all', views.delete_all),
     path('admin/', admin.site.urls)
+    
 ] + static (settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 # print(static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT))
