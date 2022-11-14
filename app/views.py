@@ -32,6 +32,7 @@ def executeCompare(request3):
     form2 = IdentifyForm()
     images2 = Identify.objects.all()
     '''
+    
     path_of_the_directory = 'C:/Users/Raicelys Suero/Documents/CST-10/Prog. Web Avanz/Missing Person System/missingperson/media/identify'
     object = os.scandir(path_of_the_directory)
     path_of_the_directory0 = 'C:/Users/Raicelys Suero/Documents/CST-10/Prog. Web Avanz/Missing Person System/missingperson/media/gallery'
