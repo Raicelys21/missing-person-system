@@ -80,12 +80,12 @@
           <div class="col-lg-6 col-md-8 mx-auto">
           </div>
           <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 g-3">
+            <div class="row row-cols-1 row-cols-sm-1 g-3">
               <div class="col">
                 <div class="card shadow-sm">
                     {% for x in images2 %}
                         <div class="card m-4">
-                            <img class="card-img-top" src="{{x.photo.url}}" alt="img" height="400px">
+                            <img class="card-img-top" src="{{x.photo.url}}" alt="img" height="auto" width="100px">
                           </div>
                     {% endfor %}
 
@@ -95,15 +95,7 @@
                   </form>
                 </div>
               </div>
-
-              <div class="col">
-                <div class="card shadow-sm">
-                  
-
-                  <div class="card-body" >
-                   
-                  </div>
-                </div>
+      
               </div>
             </div>
           </div>
